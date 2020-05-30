@@ -1,0 +1,95 @@
+html ,body{
+    padding: 0;
+    margin: 0;
+	margin-bottom: 10px;
+    background-color: #86DBF0
+}
+#subject{
+	min-height: 250px;
+	min-width: 700px;
+	border-radius: 5px;
+	max-height: 300px;
+	max-width: 750px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 20px;
+}
+#name{
+	margin-bottom: 10px;
+	height: 25px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-radius: 4px;
+	border: solid 1px;
+	width: 250px;
+	font-size: 18px;
+}
+#myform{
+	position: relative;
+	top:10px;
+	margin: auto;
+	height: 500px;
+	width: 800px;
+}
+#insert{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-image: -webkit-linear-gradient(270deg,rgba(72,133,207,1.00) 0%,rgba(131,169,236,1.00) 98.96%,rgba(76,244,77,1.00) 98.96%);
+    background-image: -moz-linear-gradient(270deg,rgba(72,133,207,1.00) 0%,rgba(131,169,236,1.00) 98.96%,rgba(76,244,77,1.00) 98.96%);
+    background-image: -o-linear-gradient(270deg,rgba(72,133,207,1.00) 0%,rgba(131,169,236,1.00) 98.96%,rgba(76,244,77,1.00) 98.96%);
+    background-image: linear-gradient(180deg,rgba(72,133,207,1.00) 0%,rgba(131,169,236,1.00) 98.96%,rgba(76,244,77,1.00) 98.96%);
+    color: white;
+    font: bolder;
+}
+#table{
+	max-width: 900px;
+	margin: auto;
+	 border-collapse: collapse;
+	background: white;
+	box-shadow: 0px 0px 6px;
+}
+#table ,td,th{
+    border: 1px solid #BDBDBD;
+}
+#table td{
+	padding: 5px;
+}
+#table th{
+    padding: 10px;
+    background-image: -webkit-linear-gradient(270deg,rgba(0,103,170,1.00) 0%,rgba(0,124,255,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,103,170,1.00) 0%,rgba(0,124,255,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,103,170,1.00) 0%,rgba(0,124,255,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,103,170,1.00) 0%,rgba(0,124,255,1.00) 100%);
+    color: #CCEDF4;
+}
+#title{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #01413F;
+}
+#accesskey{
+	font-size: 15px;
+	margin: auto;
+	margin-top: 10px;
+	border: 1px solid #C0C0C0;
+	width: 370px;
+	height: 30px;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#logform{
+    margin: auto;
+    height: 130px;
+    width: 400px;
+    background: #23B9E7;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 6px;
+    box-shadow: 0px 0px 6px;
+}
